@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { FaCheckCircle } from 'react-icons/fa';
+// import { FaCheckCircle } from 'react-icons/fa';
 import Link from 'next/link';
 
 const SuccessAnimation = ({ username = "USER", orderId = "#001960112" }) => {
@@ -9,7 +9,7 @@ const SuccessAnimation = ({ username = "USER", orderId = "#001960112" }) => {
       className="d-flex align-items-center justify-content-center flex-column px-3"
       style={{ minHeight: "100vh", textAlign: "center", backgroundColor: "#fff" }}
     >
-      <FaCheckCircle size={80} color="green" />
+      {/* <FaCheckCircle size={80} color="green" /> */}
       <h4 className="mt-4">Hey {username},</h4>
       <h2 className="fw-bold">Your Order is Confirmed!</h2>
       <p className="text-muted" style={{ maxWidth: 400 }}>
